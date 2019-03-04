@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Honeymoon';
+    src: url('../fonts/Honeymoon.ttf');
+}
+
+.font-honeymoon{
+    font-family: Honeymoon;
+}

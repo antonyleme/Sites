@@ -1,0 +1,7 @@
+.separador{
+    height: 5px;
+    width: 80px;
+    background-color: #FF8B00;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

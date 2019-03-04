@@ -1,0 +1,11 @@
+.nav-link{
+    color: #FF8B00 !important;
+}
+
+.active{
+    font-weight: bold;
+}
+
+button{
+    outline: none !important;
+}

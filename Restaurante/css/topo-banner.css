@@ -1,0 +1,29 @@
+#topo-banner{
+    background-image: url("../img/topo-banner-dark.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topo-banner p{
+    font-weight: 500;
+}
+
+.topo-banner-btn{
+    background-color: #FF8B00;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 40px;
+    transition: 0.3s;
+}
+
+.topo-banner-btn:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #EA7A00;
+}
