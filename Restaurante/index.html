@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/colors.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Hello, world!</title>
+        <title>Restaurante Bom Sabor</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -64,12 +64,107 @@
             </content>
         </section>
 
-        <section id="cardapio" class="text-center mt-3">
-            <h1 class="font-honeymoon text-orange">Cardápio do dia</h1>
-            <p>Veja os pratos de hoje e venha nos visitar!</p>
-            <div class="separador"></div>
+        <div class="container">
+            <section id="cardapio" class="text-center mt-5">
+                <h1 class="font-honeymoon text-orange">Cardápio do dia</h1>
+                <p>Veja os pratos de hoje e venha nos visitar!</p>
+                <div class="separador separador-centro"></div>
+                <div id="comidas" class="row">
+                    <div class="comidas-item col-12 col-md-4 mt-3">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/1268551/pexels-photo-1268551.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </div>
+                    <div class="comidas-item col-12 col-md-4 mt-3">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div class="comidas-item col-12 col-md-4 mt-3">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/1268551/pexels-photo-1268551.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </div>
+                    <div class="comidas-item col-12 col-md-4 mt-3">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div class="comidas-item col-12 col-md-4 mt-3">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div class="comidas-item col-12 col-md-4 mt-3">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/1440119/pexels-photo-1440119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                </div>
+                <div class="chamada mt-3">
+                    <p>Gostou?</p>
+                    <a href="#" class="chamada-btn">
+                        FAÇA SEU PEDIDO
+                    </a>
+                </div>
+            </section>
 
-        </section>
+            <section id="pedidos" class="mt-5">
+                <h2 class="text-orange">Pedidos</h2>
+                <p>Nosso serviço de delivery alcança toda a cidade! Faça o seu e enviaremos o mais rápido possível.</p>
+                <div class="separador"></div>
+                <div class="formulario mt-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="nomeinput">Nome completo</label>
+                            <input type="text" class="form-control" id="nomeinput" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefoneinput">Telefone</label>
+                            <input type="text" class="form-control" id="telefoneinput" placeholder="Digite seu número de telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailinput">Email</label>
+                            <input type="email" class="form-control" id="emailinput" aria-describedby="emailHelp" placeholder="Digite seu email">
+                            <small id="emailHelp" class="form-text text-muted">Nós nunca iremos compartilhar seu e-mail com alguém.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="nomeinput">Endereço</label>
+                            <input type="text" class="form-control" id="nomeinput" placeholder="Digite sua rua e o número da casa">
+                        </div>
+                        <div class="form-group">
+                        <label for="pratoinput">Escolha seu prato</label>
+                            <select class="form-control" id="pratoinput">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="adicionaisinput">Informações adicionais</label>
+                            <textarea class="form-control" id="adicionaisinput" rows="3" placeholder="Digite aqui caso queira adicionar alguma informação"></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Eu concordo em pagar R$3,99 pela entrega</label>
+                        </div>
+                        <button type="submit" class="chamada-btn form-btn">ENVIAR</button>
+                    </form>
+                </div>
+            </section>
+
+            <section id="quem-somos" class="mt-5">
+                <h2 class="text-orange">Quem somos</h2>
+                <p>Somos um time totalmente focado na qualidade de nossos pratos.</p>
+                <div class="separador"></div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at luctus ipsum. Cras dapibus massa eget purus semper luctus. Nunc vestibulum nibh in nibh hendrerit viverra quis nec sem. Ut in porta enim. Duis congue hendrerit posuere. Mauris id tincidunt ipsum. Duis sollicitudin efficitur nisi ut volutpat. In pulvinar, velit sed pellentesque efficitur, justo ligula convallis sapien, eu eleifend neque leo placerat quam. Aliquam urna enim, pellentesque sed rutrum ac, viverra vel nunc. Vivamus ac bibendum quam. Pellentesque eget ex erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="col-12">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                </div>
+                <div class="chamada mt-3 text-center">
+                    <p>Tem algo a nos dizer?</p>
+                    <a href="#" class="chamada-btn">
+                        FALE CONOSCO
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <BR><BR>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
