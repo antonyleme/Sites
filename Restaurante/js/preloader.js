@@ -1,5 +1,6 @@
 var $content = $('#content');
 var $preloader = $('#preloader');
+var $icon = $('#preloader-icon');
 $content.hide();
 
 window.onload = function(){

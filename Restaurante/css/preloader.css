@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+#content{
+    transition: 1s;
+}
+
 .opacity{
     opacity: 0;
 }
