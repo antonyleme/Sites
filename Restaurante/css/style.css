@@ -4,6 +4,10 @@
     background-color: #FF8B00;
 }
 
+.separador-light{
+    background-color: #FFFFFF;
+}
+
 .separador-centro{
     margin-left: 50%;
     transform: translateX(-50%);
@@ -24,6 +28,17 @@
     color: white;
     text-decoration: none;
     background-color: #EA7A00;
+}
+
+.chamada-btn-light{
+    background-color: #FFF;
+    color: #FF8B00;
+}
+
+.chamada-btn-light:hover{
+    color: #FF8B00;
+    text-decoration: none;
+    background-color: rgb(226, 226, 226);
 }
 
 .form-btn{
