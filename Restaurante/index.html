@@ -17,7 +17,7 @@
         <title>Restaurante Bom Sabor</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mobile d-lg-none">
             <div class="container">
                 <nav class="navbar navbar-light bg-white">
                     <a class="navbar-brand" href="#">
@@ -31,9 +31,6 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active link-scroll" href="#topo-banner">Início <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link link-scroll" href="#cardapio">Cardápio</a>
                     </li>
                     <li class="nav-item">
@@ -43,13 +40,32 @@
                         <a class="nav-link link-scroll" href="#quem-somos">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-scroll" href="#como-chegar">Como chegar</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link link-scroll" href="#contato">Contato</a>
                     </li>
                     </ul>
                 </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-none d-lg-block">
+            <div class="container">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item" style="margin-left: 40px">
+                        <a class="nav-link link-scroll" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-scroll" href="#pedidos">Pedido</a>
+                    </li>
+                    <div style="width: 250px"></div>
+                    <a href="#"><img src="img/logo.png" class="logo-desk"></a>
+                    <div class="bg-white logo-desk-bg"></div>
+                    <li class="nav-item">
+                        <a class="nav-link link-scroll" href="#quem-somos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-scroll" href="#contato">Contato</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -100,8 +116,8 @@
 
             <section id="pedidos" class="mt-5 bg-orange text-light pt-5 pb-5">
                 <div class="container">
-                    <h2 class="text-light">Pedidos</h2>
-                    <p>Nosso serviço de delivery alcança toda a cidade! Faça o seu e enviaremos o mais rápido possível.</p>
+                    <h2 class="text-light">Faça seu pedido</h2>
+                    <p>Nosso serviço de delivery alcança toda a cidade!</p>
                     <div class="separador separador-light"></div>
                     <div class="formulario mt-4">
                         <form>
@@ -151,10 +167,10 @@
                 <p>Somos um time totalmente focado na qualidade de nossos pratos.</p>
                 <div class="separador"></div>
                 <div class="row mt-4">
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at luctus ipsum. Cras dapibus massa eget purus semper luctus. Nunc vestibulum nibh in nibh hendrerit viverra quis nec sem. Ut in porta enim. Duis congue hendrerit posuere. Mauris id tincidunt ipsum. Duis sollicitudin efficitur nisi ut volutpat. In pulvinar, velit sed pellentesque efficitur, justo ligula convallis sapien, eu eleifend neque leo placerat quam. Aliquam urna enim, pellentesque sed rutrum ac, viverra vel nunc. Vivamus ac bibendum quam. Pellentesque eget ex erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <img class="img-fluid" src="https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
                     </div>
                 </div>
@@ -202,7 +218,8 @@
         </section>
 
         <section id="footer" class="mt-4 mb-2 text-center">
-            <a href="#topo-banner"><img src="img/logo.png" alt="Restaurante Bom Sabor logomarca" height="150px"></a>
+            <a href="#topo-banner" class="mt-4"><img src="img/logo.png" alt="Restaurante Bom Sabor logomarca" height="150px"></a>
+            <p>Praça Rui Barbosa - Centro - Cataguases - MG, 36770-034</p>
         </section>
 
         <!-- Optional JavaScript -->

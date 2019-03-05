@@ -1,5 +1,7 @@
 .nav-link{
     color: #FF8B00 !important;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .active{
@@ -8,4 +10,22 @@
 
 button{
     outline: none !important;
+}
+
+.logo-desk{
+    position: absolute; 
+    width: 90px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.logo-desk-bg{
+    position: absolute; 
+    width: 150px; 
+    height: 150px; 
+    left: 50%; 
+    top: -60px;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 1;
 }
