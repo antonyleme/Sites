@@ -28,11 +28,25 @@
     background-color: #EA7A00;
 }
 
-@media (min-width: 1200px) 
-{
+@media(max-width: 1199px){
+    #topo-banner{
+        height: 100vh;
+    }
+}
 
+@media (max-width: 1599px) 
+{
+    #topo-banner{
+        height: 60vh;
+        background-position: 0px -200px, center;
+    }
+}
+
+@media (min-width: 1600px) 
+{
     #topo-banner{
         height: 50vh;
         background-position: 0px -200px, center;
     }
 }
+
